@@ -29,7 +29,5 @@ public class UserFragment extends Fragment {
      SharedPreferences.Editor edit =  sharedPreferences.edit();
      edit.putString("Name","Ganesh");
      edit.apply();
-
-
     }
 }

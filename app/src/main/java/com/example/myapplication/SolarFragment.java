@@ -29,32 +29,12 @@ public class SolarFragment extends Fragment {
     GraphFragmentPageAdapter pageAdapter;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // placeholder for the BarChart Created in layout
-        // layout parent
         View v=inflater.inflate(R.layout.fragment_solar, container, false);
-//        BarChart barChart = v.findViewById(R.id.bar_Chart);
-//        ArrayList<BarEntry>  barData = new ArrayList<>();
-//
-//        for(int i=0;i<5;i++) {
-//            BarEntry barEntry = new BarEntry(i,5*i);
-//            barData.add(barEntry);
-//        }
-//
-//        BarDataSet dataSet = new BarDataSet(barData,"MyClimate");
-//        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
-//        dataSet.setDrawValues(false);
-//
-//        barChart.setData(new BarData(dataSet));
-//        barChart.animateY(2000);
-//
-//        barChart.getDescription().setText("MyClimateText");
-//        barChart.getDescription().setTextColor(Color.BLUE);
         return v;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-//        super.onViewCreated(view, savedInstanceState);
         viewPager = view.findViewById(R.id.pager);
         pageAdapter = new GraphFragmentPageAdapter(getChildFragmentManager());
         viewPager.setAdapter(pageAdapter);
