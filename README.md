@@ -24,13 +24,6 @@ Rupow is available on the github release.
 </a>  
 </p>
 
-<style>
-    h2 {
-        vertical-align: bottom;
-        display:block;
-    }
-</style>
-
 ## About
 
 Rupow has been made for you to know about the power consumption in your household and to help you to participate in global fight against climatic actions by fulfilling one or more of sustainable goals.
