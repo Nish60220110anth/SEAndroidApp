@@ -3,25 +3,22 @@ package com.example.myapplication;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
-
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.formatter.ValueFormatter;
-import com.github.mikephil.charting.renderer.YAxisRenderer;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
@@ -98,7 +95,7 @@ public class BarGraph_f extends Fragment {
         barChart.setTouchEnabled(true);
         barChart.setScaleEnabled(true);
         barChart.setScaleXEnabled(true);
-        barChart.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.dark_background));
+        barChart.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.dark_background));
 
         // Highlight Labels
         barChart.setEnabled(true);

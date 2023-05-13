@@ -26,8 +26,8 @@ public class UserFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-     SharedPreferences.Editor edit =  sharedPreferences.edit();
-     edit.putString("Name","Ganesh");
-     edit.apply();
+        SharedPreferences.Editor edit =  sharedPreferences.edit();
+        edit.putString("Name","Ganesh");
+        edit.apply();
     }
 }

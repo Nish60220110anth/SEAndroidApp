@@ -33,7 +33,7 @@ This application was created by B-Tech CS Students for SE-Course and released un
 ## Features
 
 The android app lets you:
-- Add Something
+- !!! Incomplete !!!
 
 ## Screenshots
 
